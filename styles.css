@@ -1,14 +1,14 @@
-/* Global Styling */
+
 body {
     margin: 8px;
     padding: 0;
     font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #f4f4f4;
-    display: block; /* Ensures the body is displayed as a block element */
+    color: black;
+    background-color: white;
+    display: block; 
 }
 
-/* ID Selector */
+
 #mainHeading {
     color: red;
     font-size: 2.5em;
@@ -16,23 +16,23 @@ body {
     margin-bottom: 20px;
 }
 
-/* Class Selector */
+
 .funParagraph {
     color: green;
     font-style: italic;
     line-height: 1.8;
 }
 
-/* Header Styling */
+
 header {
-    background-color: #007bff;
+    background-color: blue;
     padding: 20px;
     width: 100%;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
 }
 
-/* Navigation Styling */
+
 nav {
     margin: 20px 0;
 }
@@ -40,7 +40,7 @@ nav {
 nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: #ffffff;
+    color: white;
     font-weight: bold;
     font-size: 1.1em;
 }
@@ -49,19 +49,18 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Article & Section Styling */
+
 article {
     max-width: 800px;
     width: 100%;
-    background-color: #ffffff;
+    background-color: white;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
     border-radius: 8px;
 }
 
 h2 {
-    color: #007bff;
+    color: blue;
     margin-top: 20px;
     font-size: 1.8em;
     text-align: center;
@@ -74,81 +73,25 @@ p {
     text-align: center;
 }
 
-/* Image Styling */
+
 img {
-    max-width: 100%;
-    height: auto;
+    max-width: 500px;
+    height: 500px;
     object-fit: cover;
     display: block;
     margin: 15px auto;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
 }
 
-/* Footer Styling */
+
 footer {
-    background-color: #007bff;
+    background-color: blue;
     padding: 15px;
     width: 100%;
     text-align: center;
-    color: #ffffff;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
     margin-top: 20px;
     position: relative;
     bottom: 0;
-}
-
-/* Back to Top Button Styling */
-#backToTopBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed position at the bottom-right of the screen */
-    bottom: 30px;
-    right: 30px;
-    z-index: 99; /* Place it on top of other elements */
-    font-size: 18px;
-    background-color: #007bff; /* Button background color */
-    color: white; /* Button text color */
-    border: none;
-    outline: none;
-    padding: 15px;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-#backToTopBtn:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-}
-
-@media (max-width: 600px) {
-    body {
-        padding: 10px;
-    }
-
-    nav a {
-        margin: 0 8px;
-        font-size: 1em;
-    }
-
-    h2 {
-        font-size: 1.5em;
-    }
-
-    p {
-        font-size: 1em;
-    }
-
-    img {
-        margin: 10px 0;
-    }
-
-    footer {
-        padding: 10px;
-    }
-
-    #backToTopBtn {
-        bottom: 20px; /* Adjust position for smaller screens */
-        right: 20px;
-    }
 }
